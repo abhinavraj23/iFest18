@@ -64,13 +64,21 @@ public class SingleEventInfoFragment extends Fragment {
         String description = getString(getResources().getIdentifier(eventName+"Description","string", getActivity().getPackageName()));
         if(!description.equals("")) {
             getView().findViewById(R.id.card_view_info2).setVisibility(View.VISIBLE);
-            infoDescription.setText(Html.fromHtml(description));
+            if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N){
+                infoDescription.setText(Html.fromHtml(description,Html.FROM_HTML_MODE_LEGACY));
+            } else {
+                infoDescription.setText(Html.fromHtml(description));
+            }
             infoDescription.setMovementMethod(LinkMovementMethod.getInstance());
         }
         String rules = getString(getResources().getIdentifier(eventName+"Rules","string", getActivity().getPackageName()));
         if(!rules.equals("")) {
             getView().findViewById(R.id.card_view_info3).setVisibility(View.VISIBLE);
-            infoRules.setText(Html.fromHtml(rules));
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N){
+                infoRules.setText(Html.fromHtml(rules,Html.FROM_HTML_MODE_LEGACY));
+            } else {
+                infoRules.setText(Html.fromHtml(rules));
+            }
             infoRules.setMovementMethod(LinkMovementMethod.getInstance());
 
         }
