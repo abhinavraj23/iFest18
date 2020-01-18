@@ -5,7 +5,7 @@ same is https://play.google.com/store/apps/details?id=com.ieee.daiict.ifest18&hl
 
 ## Images
 
-<img src="app-image-1.png" width="50%" height="50%">
-<img src="app-image-1.png" width="100" height="100">
-<img src="app-image-1.png" width="100" height="100">
-<img src="app-image-1.png" width="100" height="100">
+<img src="app-image-1.png" width="25%" height="25%">
+<img src="app-image-1.png" width="25%" height="25%">
+<img src="app-image-1.png" width="25%" height="25%">
+<img src="app-image-1.png" width="25%" height="25%">
