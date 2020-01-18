@@ -5,7 +5,7 @@ same is https://play.google.com/store/apps/details?id=com.ieee.daiict.ifest18&hl
 
 ## Images
 
-![](app-image-1.png =150x150)
-![](app-image-2.png =150x150)
-![](app-image-3.png =150x150)
-![](app-image-4.png =150x150)
+![](app-image-1.png){:height="50%" width="50%"}
+![](app-image-2.png){:height="50%" width="50%"}
+![](app-image-3.png){:height="50%" width="50%"}
+![](app-image-4.png){:height="50%" width="50%"}
